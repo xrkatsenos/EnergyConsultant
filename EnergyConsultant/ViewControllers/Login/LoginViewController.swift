@@ -12,7 +12,8 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "Login"
+        
         // Do any additional setup after loading the view.
     }
     
