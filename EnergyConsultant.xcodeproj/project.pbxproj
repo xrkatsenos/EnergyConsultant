@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA1558D124312B1A00AC8FCE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1558D024312B1A00AC8FCE /* RegisterViewController.swift */; };
 		CA606B672430FC8B00432333 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA606B662430FC8B00432333 /* AppDelegate.swift */; };
 		CA606B692430FC8B00432333 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA606B682430FC8B00432333 /* SceneDelegate.swift */; };
 		CA606B6B2430FC8B00432333 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA606B6A2430FC8B00432333 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA1558D024312B1A00AC8FCE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CA606B632430FC8B00432333 /* EnergyConsultant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnergyConsultant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA606B662430FC8B00432333 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CA606B682430FC8B00432333 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,8 +86,8 @@
 		CA606B7C2430FCC800432333 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				CA606B822431011C00432333 /* Login */,
 				CA606B6A2430FC8B00432333 /* ViewController.swift */,
+				CA606B822431011C00432333 /* Login */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				CA606B802431011100432333 /* LoginViewController.swift */,
+				CA1558D024312B1A00AC8FCE /* RegisterViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA606B812431011100432333 /* LoginViewController.swift in Sources */,
+				CA1558D124312B1A00AC8FCE /* RegisterViewController.swift in Sources */,
 				CA606B6B2430FC8B00432333 /* ViewController.swift in Sources */,
 				CA606B672430FC8B00432333 /* AppDelegate.swift in Sources */,
 				CA606B692430FC8B00432333 /* SceneDelegate.swift in Sources */,

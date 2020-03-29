@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  RegisterViewController.swift
 //  EnergyConsultant
 //
 //  Created by Katsenos Christos on 29/3/20.
@@ -8,17 +8,20 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class RegisterViewController: UIViewController {
 
+    
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
-    @IBOutlet weak var loginButton: UIButton!
-    
+    @IBOutlet weak var repasswordTextField: UITextField!
+    @IBOutlet var textFields: [UITextField]!
+    @IBOutlet weak var registerButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Login"
-        
+
         // Do any additional setup after loading the view.
     }
     
@@ -34,7 +37,9 @@ class LoginViewController: UIViewController {
     */
 
     
-    @IBAction func loginAction(_ sender: Any) {
-    }
+    //Actions
     
+    @IBAction func registerAction(_ sender: Any) {
+        
+    }
 }
